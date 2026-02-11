@@ -1,0 +1,13 @@
+/* Simple colourful professional theme */
+:root{
+  --accent: #6f42c1;
+  --accent-2: #20c997;
+  --bg1: linear-gradient(135deg,#0f172a,#0b3a66);
+}
+body.bg-gradient{ background: var(--bg1); min-height:100vh; color:#fff; }
+.card{ border-radius: .6rem; }
+.btn-primary{ background: linear-gradient(90deg,var(--accent),#4b6cb7); border:0; }
+.btn-outline-light{ border-color: rgba(255,255,255,.2); }
+.navbar-brand{ font-weight:700; letter-spacing:.6px; }
+.container header, .card{ color:#111; }
+.card .card-title{ color:var(--accent); }
